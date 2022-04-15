@@ -986,16 +986,17 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .hero-section{
     position: relative;
     min-height: 700px;
-    background: url('../img/bg-img/header2.jpg') no-repeat bottom center;
+    /* background: url('../img/bg-img/header2.jpg') no-repeat bottom center; */
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 .hero-section.app{
     position: relative;
     min-height: 730px;
-    background: url('../img/bg-img/header-app.png') no-repeat top center;
+    /* background: url('../img/bg-img/header-app.png') no-repeat top center; */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1059,11 +1060,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .hero-section.moving{
     overflow: hidden;
-    background: url(../img/bg-img/header-1.jpg) no-repeat center top; 
+    background-color: black;
+    /* background: url(../img/bg-img/header-1.jpg) no-repeat center top;  */
 }
 .hero-section.moving-2{
     overflow: hidden;
-    background: url(../img/bg-img/moving-2.png) no-repeat center top; 
+    /* background: url(../img/bg-img/moving-2.png) no-repeat center top;  */
     background-size: cover;
 }
 .moving-bg {
