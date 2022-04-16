@@ -3933,7 +3933,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     letter-spacing: 0.5px;
     background-image: linear-gradient(117deg, #724eff, #5187ff);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-image: url(../img/svg/discount-bg-1.svg);
 }
 
