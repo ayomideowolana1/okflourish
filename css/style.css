@@ -81,7 +81,8 @@ body {
     background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
 }
 .darker{
-   background:  #030239 
+    background: #000;
+   /* background:  #030239  */
 }
 .darker2 {
     background: #090134;
