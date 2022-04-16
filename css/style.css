@@ -4060,6 +4060,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     z-index: 1;
     padding: 0 30px;
     margin-bottom: 100px;
+    /* border: 1px solid white; */
 }
 
 .team-member-thumb {
@@ -4070,7 +4071,31 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     border-radius: 50%;
     margin:0 auto;
     margin-bottom: 20px;
+    /* border: 1px solid white; */
 }
+
+.team-member-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member-social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-member-social-icon a{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
 
 .team-info h5 {
     color: #7057f9;
