@@ -1062,7 +1062,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .hero-section.moving{
     overflow: hidden;
     background-color: black;
-     background: url(/img/new/home-bg.png) no-repeat center top;  
+     background: url('/img/new/home-bg.png') no-repeat center top;  
      background-size: cover;
      background-position: center;
 }
