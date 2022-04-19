@@ -1066,6 +1066,21 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
      background: url('/img/new/home-bg-3.jpg') no-repeat center top;  
      background-size: cover;
      background-position: center;
+     height: 100vh;
+}
+
+@media screen and  (max-width: 480px){
+    .hero-section.moving{
+     background: url('/img/new/home-bg-cropped.png') no-repeat center top;
+     background-size: cover;  
+     /* border: 1px solid red; */
+    
+}
+    .hero-section.moving h1,p{
+        text-shadow: 0px 0px 3px black;
+
+    }
+
 }
 .hero-section.moving-2{
     overflow: hidden;
